@@ -19,8 +19,8 @@ export default {
   Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助:) 💖</p>',
   // 首页打字机文案列表
   TypeWriteList: [
-    '不曾与你分享的时间,我在进步.',
-    "I am making progress in the time I haven't shared with you.",
+    //'不曾与你分享的时间,我在进步.',
+    //"I am making progress in the time I haven't shared with you.",
   ],
   // 网站创建时间
   CreateTime: '2021-09-01',
@@ -118,9 +118,9 @@ export default {
   // 文章内赞赏码
   Reward: {
     // 支付宝收款码
-    AliPay: '/assets/images/alipay.webp',
+    // AliPay: '/assets/images/alipay.webp',
     // 微信收款码
-    WeChat: '/assets/images/wechat.webp'
+    // WeChat: '/assets/images/wechat.webp'
   },
   // 访问网页 自动推送到搜索引擎
   SeoPush: {
