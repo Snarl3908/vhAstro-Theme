@@ -1,0 +1,11 @@
+/* 修复代码块滚动条卡住问题，保证 overlayscrollbars 或原生滚动条都能正常滚动到底 */
+section.vh-code-box > pre.astro-code {
+  max-height: 400px;
+  overflow: auto !important;
+  box-sizing: border-box;
+}
+section.vh-code-box > pre.astro-code [data-overlayscrollbars-viewport] {
+  max-height: 100% !important;
+  overflow: auto !important;
+  box-sizing: border-box;
+}
